@@ -1,1 +1,69 @@
+.bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -4;
+}
+
+.bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  z-index: -5;
+}
+
+nav {
+	padding-left: 100px;
+	padding-right: 60px;
+	padding-top: 8px;
+	top: 0px;
+	width: 100%;
+	background-color: grey;
+	overflow: hidden;
+	text-align: left;
+	height: 75px;
+	position: fixed;
+	z-index: 2;
+}
+
+nav li {
+	display: inline-block;
+	position: relative;
+}
+
+nav li:after {
+	content: " |";
+}
+
+.logo {
+	position: absolute;
+	left: 60px;
+	border-radius: 50%;
+	border: 1px solid black;
+	height: 60px;
+}
+
+.dotted-box {
+	border: 10px green dotted;
+	margin: auto;
+	width: 600px;
+	height: 300px;
+	z-index: 2;
+
+}
+
+body {
+	text-align: center;
+	padding-top: 50%;
+	padding-bottom: 50%;
+}
+
+
 
