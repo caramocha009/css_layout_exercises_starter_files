@@ -30,7 +30,7 @@ nav {
 	text-align: left;
 	height: 75px;
 	position: fixed;
-	z-index: 2;
+	z-index: 4;
 }
 
 nav li {
@@ -52,17 +52,38 @@ nav li:after {
 
 .dotted-box {
 	border: 10px green dotted;
-	margin: auto;
+	margin-left: 50%;
+	margin-right: 50%;
 	width: 600px;
 	height: 300px;
+	position: relative;
 	z-index: 2;
-
 }
 
 body {
-	text-align: center;
 	padding-top: 50%;
 	padding-bottom: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+}
+
+.spacecat {
+	position: relative;
+	left: 29%;
+	bottom: 450px;
+	width: 200px;
+	height: 200px;
+	z-index: 3;
+}
+
+.spacedog {
+	position: relative;
+	left: 120%;
+	bottom: 350px;
+	width: 200px;
+	height: 200px;
+	z-index: 3;
 }
 
 
