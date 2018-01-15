@@ -1,3 +1,10 @@
+body {
+	background:url(../images/outerspace_landscape.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*
 .bg {
   position: fixed; 
   top: -50%; 
@@ -18,6 +25,7 @@
   min-height: 50%;
   z-index: -5;
 }
+*/
 
 nav {
 	padding-left: 100px;
@@ -30,7 +38,6 @@ nav {
 	text-align: left;
 	height: 75px;
 	position: fixed;
-	z-index: 4;
 }
 
 nav li {
@@ -52,20 +59,11 @@ nav li:after {
 
 .dotted-box {
 	border: 10px green dotted;
-	margin-left: 50%;
-	margin-right: 50%;
+	margin: 160px auto 0 auto;
 	width: 600px;
 	height: 300px;
 	position: relative;
 	z-index: 2;
-}
-
-body {
-	padding-top: 50%;
-	padding-bottom: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	position: absolute;
 }
 
 .spacecat {
