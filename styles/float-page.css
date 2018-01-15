@@ -11,12 +11,18 @@ main {
   margin-right: auto;
 }
 
+.medium {
+	width: 300px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 .nebula1 {
 	float: left;
-	margin-right: 10px;
+	margin-right: 15px;
 }
 
 .nebula2 {
 	float: right;
-	margin-left: 10px;
+	margin-left: 15px;
 }
